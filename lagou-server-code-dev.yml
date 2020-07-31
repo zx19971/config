@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: lagou-service-resume
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.10.255.192:3306/mybatis?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: MyNewPass4！
+  jpa:
+    database: MySQL
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl  #避免将驼峰命名转换为下划线命名
