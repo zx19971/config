@@ -5,7 +5,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://39.10.255.192:3306/mybatis?useUnicode=true&characterEncoding=utf8
     username: root
-    password: MyNewPass4！
+    password: MyNewPass4!
   jpa:
     database: MySQL
     show-sql: true
