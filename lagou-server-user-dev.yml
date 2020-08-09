@@ -4,6 +4,10 @@ spring:
     url: jdbc:mysql://39.100.255.192:3306/mybatis?useUnicode=true&characterEncoding=utf8
     username: root
     password: MyNewPass4!
+    minimum-idle: 3
+    maximum-pool-size: 10
+    max-lifetime: 999999999999999999999
+    connection-test-query: SELECT 1
   jpa:
     database: MySQL
     show-sql: true
